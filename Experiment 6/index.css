@@ -1,62 +1,40 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Demo</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
 
-body{
-    background:#f5f5f5;
-}
+<div class="container">
+    <div class="card">
 
-.container{
-    width:75%;
-    margin:50px auto;
-    background:#47d1b5;
-    padding:25px;
-    border:2px solid #2d8f7f;
-}
+        <h1>
+            JavaScript is a scripting language used to make
+            web pages interactive and dynamic.
+        </h1>
 
-.card{
-    background:white;
-    border-radius:15px;
-    text-align:center;
-    padding:40px 30px;
-}
+        <input type="text"
+               value="JavaScript is a scripting language used to">
 
-h1{
-    font-size:42px;
-    margin-bottom:25px;
-    color:#222;
-}
+        <div class="btn-row">
+            <button>Change Heading</button>
+            <button>Change Background</button>
+            <button>Increase Font Size</button>
+        </div>
 
-input{
-    width:300px;
-    padding:10px;
-    margin-bottom:25px;
-    border:1px solid #999;
-}
+        <div class="btn-row">
+            <button>Show/Hide Paragraph</button>
+            <button>Reset</button>
+        </div>
 
-.btn-row{
-    margin-bottom:15px;
-}
+        <p>
+            This is a sample paragraph. JavaScript events can
+            dynamically change content.
+        </p>
 
-button{
-    background:#1e88e5;
-    color:white;
-    border:none;
-    padding:10px 18px;
-    margin:5px;
-    border-radius:5px;
-    cursor:pointer;
-}
+    </div>
+</div>
 
-button:hover{
-    background:#1565c0;
-}
-
-p{
-    margin-top:40px;
-    font-size:22px;
-    color:#333;
-}
+</body>
+</html>
